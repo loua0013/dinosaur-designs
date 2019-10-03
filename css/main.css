@@ -1,6 +1,6 @@
-html{
+html {
   background-color: #f2f1ed;
-  font-family: Georgia,serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -29,7 +29,12 @@ nav ol {
 }
 
 nav a {
-  color: #793284
+  color: #793284;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#b42885;
   text-decoration: underline;
 }
 
